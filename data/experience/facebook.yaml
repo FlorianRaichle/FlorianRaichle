@@ -1,0 +1,8 @@
+company: "Facebook"
+# id: "facebook-developer" // use this, when you want to change the id(used for navigation)
+role: "Fullstack developer"
+startdate: Mar 2020
+enddate: Dec 2020
+featuredpoints:
+  - point: Lead backend developer for a product.
+  - point: Created a frontend design for a product.
