@@ -1,0 +1,125 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Florian Raichle"
+theme: "hugo-profile"
+relativeURLs: true
+
+# googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+
+# menus
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /ew
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /34545
+    #   parent: dropdown
+    #   weight: 2
+    
+params:
+  version: 3
+  customCSS: false
+
+  # favicon: "/images/fav.png"
+  description: "A high performance hugo theme for personal portfolio and blog."
+
+  # home
+  disable_home: false
+  # profile_image: "/images/profile.png"
+  name: "Florian Raichle"
+  namecolor: ffc107
+  profession: "Chemical Engineer"
+  github: "https://github.com"
+  gitlab: "https://gitlab.com"
+  linkedin: "https://linkedin.com"
+  twitter: "https://twitter.com/"
+  instagram: "https://instagram.com/"
+  facebook: "https://facebook.com"
+
+  # Custom social links
+  customSocialLinks:
+    - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
+      url: "https://gohugo.com"
+    - fontAwesomeIconName: "fa fa-envelope"
+      url: "https://gmail.com"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
+  skills:
+    - name: CSS
+      percentage: 90
+    - name: Django
+      percentage: 85
+    - name: Hugo
+      percentage: 80
+    - name: React JS
+      percentage: 70
+
+  # Experience
+  disable_experience: false
+  
+  # Education
+  disable_education: false
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Example project without details"
+      img: /images/project.jpg
+      githublink: "https://github.com/"
+      featuredlink: "/"
+      description: "Description of project"
+
+  # Achievements
+  disable_achievements: true
+  achievements:
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+      url: https://example.com
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+      # url: https://example.com
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+  email: "example@mail.com"
