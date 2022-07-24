@@ -1,0 +1,8 @@
+company: "Lattice Boltzmann Research Group, KIT"
+role: "Research Assistant"
+startdate: April 2018 
+enddate: September 2019
+featuredpoints:
+    - point: Work on boundary conditions and solid-fluid interactions for lattice Boltzmann method
+    - point: Development of program interface with solid deformation simulation software
+    - point: Analysis and presentation of results

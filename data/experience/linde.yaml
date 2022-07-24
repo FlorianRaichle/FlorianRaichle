@@ -1,0 +1,10 @@
+company: "Linde Engineering"
+role: "Internship"
+startdate: May 2021
+enddate: September 2021
+featuredpoints:
+  - point: Work on a test rig investigating structured packings using gamma tomography
+  - point: Install test columns
+  - point: Perform test runs
+  - point: Analyse data and visualize results
+  - point: Develop control software for gamma tomograph
