@@ -26,31 +26,17 @@ Menus:
       title: Blog posts
       url: /blog
       weight: 1
-
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /ew
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /34545
-    #   parent: dropdown
-    #   weight: 2
     
 params:
   version: 3
   customCSS: false
 
-  # favicon: "/images/fav.png"
+  favicon: "/logo/new_logo_white52px.png"
+  logo_light: "/logo/new_logo_white52px.png"
+  logo_dark: "/logo/new_logo_black52px.png"
   description: "A high performance hugo theme for personal portfolio and blog."
+
+  projectTypes: ["project", "thesis"]
 
   # home
   disable_home: false
@@ -67,39 +53,25 @@ params:
 
   # Custom social links
   customSocialLinks:
-    - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
-      url: "https://gohugo.com"
     - fontAwesomeIconName: "fa fa-envelope"
       url: "https://gmail.com"
 
-  # About
-  disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
-  skills:
-    - name: CSS
-      percentage: 90
-    - name: Django
-      percentage: 85
-    - name: Hugo
-      percentage: 80
-    - name: React JS
-      percentage: 70
-
-  # Experience
-  disable_experience: false
-  
-  # Education
-  disable_education: false
-
-  # Projects
-  disable_projects: false
-  projects:
-    - name: "Example project without details"
-      img: /images/project.jpg
-      githublink: "https://github.com/"
-      featuredlink: "/"
-      description: "Description of project"
+  sections:
+    - name: home
+    - name: about
+      description: "Hi, I'm Florian Raichle, a chemical engineer who likes to do some creative stuff on the side.
+      <br><br>
+      
+      You can find my works [here](#projects)."
+      skills: 
+      - name: CFD
+      - name: C++
+      - name: Python
+      - name: LaTeX
+    - name: experience
+    - name: education
+    - name: projects
+    - name: contact
 
   # Achievements
   disable_achievements: true
