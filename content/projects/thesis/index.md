@@ -6,6 +6,7 @@ csl: 'ieee.csl'
 date: 'November 08, 2021 - May 23, 2022'
 title: Simulation of adsorption on moving particles using the Eulerian-Eulerian
     lattice Boltzmann method
+description: "My master thesis developing an adsorption model for the lattice Boltzmann method."
 resources:
 - src: Ma-FlorianRaichle.pdf
   title: Thesis

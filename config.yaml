@@ -59,10 +59,8 @@ params:
   sections:
     - name: home
     - name: about
-      description: "Hi, I'm Florian Raichle, a chemical engineer who likes to do some creative stuff on the side.
-      <br><br>
-      
-      You can find my works [here](#projects)."
+      description: "Hi, I'm Florian Raichle, a chemical engineer who likes to do some creative stuff on the side as well.
+      The focus of my research so far was computational fluid dynamics but I'm always trying to learn something new."
       skills: 
       - name: CFD
       - name: C++
@@ -72,8 +70,8 @@ params:
     - name: education
     - name: projects
     - name: contact
-  
+
   # Contact
   disable_contact: false
   contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-  email: "example@mail.com"
+  email: "raichle.florian@gmail.com"
