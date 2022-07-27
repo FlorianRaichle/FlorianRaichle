@@ -44,17 +44,17 @@ params:
   name: "Florian Raichle"
   namecolor: ffc107
   profession: "Chemical Engineer"
-  github: "https://github.com"
-  gitlab: "https://gitlab.com"
-  linkedin: "https://linkedin.com"
-  twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
-  facebook: "https://facebook.com"
+  github: "https://github.com/florianraichle"
+  # gitlab: "https://gitlab.com"
+  linkedin: "https://www.linkedin.com/in/florian-raichle-209991200/"
+  # twitter: "https://twitter.com/"
+  # instagram: "https://instagram.com/florianraichle"
+  # facebook: "https://facebook.com"
 
   # Custom social links
-  customSocialLinks:
-    - fontAwesomeIconName: "fa fa-envelope"
-      url: "https://gmail.com"
+  # customSocialLinks:
+  #   - fontAwesomeIconName: "fa fa-envelope"
+  #     url: "https://gmail.com"
 
   sections:
     - name: home
@@ -73,5 +73,6 @@ params:
 
   # Contact
   disable_contact: false
-  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+  contact_content: Whether you have a question or just want to say hello,
   email: "raichle.florian@gmail.com"
+  getintouch: Send me a message

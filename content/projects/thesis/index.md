@@ -10,6 +10,7 @@ description: "My master thesis developing an adsorption model for the lattice Bo
 resources:
 - src: Ma-FlorianRaichle.pdf
   title: Thesis
+weight: 1
 ---
 
 Abstract
