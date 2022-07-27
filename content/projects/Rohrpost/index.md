@@ -13,3 +13,5 @@ It syncs instantly between all of your devices, smartphone, computer, tablet, wh
 ## Technical Highlights
 - Instant Sync using Google Firebase
 - Cross Platform through Flutter
+
+{{< figure src="media/Simulator2.png" class="flex justify-center" height="150" width="150" >}}
