@@ -72,25 +72,7 @@ params:
     - name: education
     - name: projects
     - name: contact
-
-  # Achievements
-  disable_achievements: true
-  achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      # url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-
+  
   # Contact
   disable_contact: false
   contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
