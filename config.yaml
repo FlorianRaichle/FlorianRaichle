@@ -59,7 +59,7 @@ params:
   sections:
     - name: home
     - name: about
-      description: "Hi, I'm Florian Raichle, a chemical engineer who likes to do some creative stuff on the side as well.
+      description: "Hi, I'm a chemical engineer who likes to do some creative stuff on the side as well.
       The focus of my research so far was computational fluid dynamics but I'm always trying to learn something new."
       skills: 
       - name: CFD
