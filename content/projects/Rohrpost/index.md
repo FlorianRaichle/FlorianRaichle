@@ -11,6 +11,12 @@ If you have a link, snippet of text or an image you just want to get from one de
 It syncs instantly between all of your devices. 
 {{< figure src="media/Simulator2.png" class="flex justify-center" height="150" width="150" >}}
 
+The goal was to find a simple starter project to have a go at app development.
+I was using Windows and iOS and wanted an easy way to share small amounts of data between the two operating systems, without having to email myself.
+Thus I came up with Rohrpost.
+It functions similarly to a messaging app, but only the owner can see their content.
+It is not just copied from one tutorial which is important when learning, but I obviously took inspiration from some blog posts and tutorials.
+
 ## Technical Highlights
 - Instant Sync using Google Firebase
 - Cross Platform through Flutter
