@@ -33,6 +33,13 @@ to show the convergence of the model. The applicability of the model to
 complex flow problems is demonstrated in a static mixer with moving
 particles.
 
+Problem Statement and Approach
+==============================
+Adsorption is ostensibly best described using individually resolved particles.
+This approach however becomes untenable when larger and more complex fluid problems need to be solved.
+Therefore the goal of this thesis was the development of an adsorption model for the Euler-Euler approach where particles are treated as a continuum.
+The linear driving force model was chosen because it is suitable for this approach while still being reasonably accurate and based on physical mechanisms. 
+
 {{< a href="MA-FlorianRaichle.pdf" download="MA-FlorianRaichle" >}}
-Click here to download
+Get the pdf here
 {{< /a >}}
