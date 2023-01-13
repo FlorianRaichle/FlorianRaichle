@@ -3,6 +3,6 @@ role: "Developer"
 startdate: September 2022
 enddate: 
 featuredpoints:
-  - point: Simulations for customers
-  - point: Silver Development
+  - point: Tailored CFD simulations for customers
+  - point: Solver Development
   - point: GUI development
