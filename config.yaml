@@ -5,7 +5,6 @@ theme: "hugo-profile"
 relativeURLs: true
 
 # googleanalytics: UA-xxxxxx-x
-show_cv: false
 disqusShortname:
 Paginate: 3
 markup:
@@ -60,12 +59,12 @@ params:
   sections:
     - name: home
     - name: about
-      description: "Hi, I'm a chemical engineer working at cloudfluid as a developer and CFD engineer.
+      description: "Hi, I'm a chemical engineer working at [cloudfluid](https://cloudfluid.com) as a developer and CFD engineer.
       The focus of my work so far has been computational fluid dynamics but I'm always trying to learn something new."
       skills: 
       - name: CFD
-      - name: Python
       - name: C++
+      - name: Python
       - name: LaTeX
     - name: experience
     - name: education
