@@ -59,7 +59,7 @@ params:
   sections:
     - name: home
     - name: about
-      description: "Hi, I'm a chemical engineer working at [cloudfluid](https://cloudfluid.com) as a developer and CFD engineer.
+      description: "I'm a chemical engineer working at [cloudfluid](https://cloudfluid.com) as a developer and CFD engineer.
       The focus of my work so far has been computational fluid dynamics but I'm always trying to learn something new."
       skills: 
       - name: CFD
